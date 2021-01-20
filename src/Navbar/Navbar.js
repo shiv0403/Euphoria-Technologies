@@ -8,7 +8,7 @@ function Navbar() {
         {/* <!-- ***** Logo Start ***** --> */}
         <div className="navbar__main__logo">
           <img
-            src="./images/Logo(compressed png).png"
+            src="../images/Logo(compressed png).png"
             alt="Chimps Technologies"
             className="logo_img"
           />

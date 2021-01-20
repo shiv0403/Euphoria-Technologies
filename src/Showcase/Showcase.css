@@ -1,5 +1,5 @@
 .showcase {
-  background-image: url("./images/banner-bg.png");
+  background-image: url("../images/banner-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -17,7 +17,7 @@
 }
 
 .showcase__main > h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 50px;
   font-weight: 200;
 }
@@ -27,6 +27,7 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 1.2rem;
 }
 
 .showcase__main > a {

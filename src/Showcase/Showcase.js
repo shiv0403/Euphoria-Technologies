@@ -6,13 +6,14 @@ function Showcase() {
     <div className="showcase">
       <div className="showcase__main">
         <h1>
-          We provide the best <strong>strategy</strong>
+          We develop <strong>innovative</strong>, <strong>creative</strong>{" "}
+          products and <strong>services</strong>
           <br />
-          to grow up your <strong>business</strong>
+          that provides all advanced technical solutions.
         </h1>
         <p>
-          Softy Pinko is a professional Bootstrap 4.0 theme designed by Template
-          Mo for your company at absolutely free of charge
+          The general purpose of Chimps is to develop and promote advanced
+          information technologies for multi-user operations.
         </p>
         <a href="#features" class="main-button-slider">
           Discover More

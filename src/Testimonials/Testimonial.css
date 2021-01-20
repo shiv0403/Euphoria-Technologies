@@ -1,0 +1,61 @@
+.testimonial {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonial > h2 {
+  color: #333333;
+}
+
+.testimonial > p {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  color: gray;
+}
+
+.testimonial__boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__boxes__item {
+  width: 20%;
+  text-align: left;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.testimonial__boxes__item > i {
+}
+
+.user-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.user-image > img {
+  border-radius: 50%;
+}
+
+.team-info > h3 {
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  color: #1e1e1e;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+
+.team-info > span {
+  display: block;
+  font-weight: 400;
+  font-size: 15px;
+  color: #ff589e;
+  letter-spacing: 0.25px;
+}
