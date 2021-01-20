@@ -5,6 +5,8 @@ import Navbar from "./Navbar/Navbar";
 import Showcase from "./Showcase/Showcase";
 import About from "./About/About";
 import Testimonial from "./Testimonials/Testimonial";
+import Pricing from "./Pricing/Pricing";
+import Contact from "./Contact/Contact";
 
 function App() {
   return (
@@ -14,8 +16,9 @@ function App() {
       <About />
       {/* work process */}
       <Testimonial />
-      {/* pricing plans (if any)*/}
-      {/* contact us */}
+      <Pricing />
+      <Contact />
+      {/* Footer */}
     </div>
   );
 }
