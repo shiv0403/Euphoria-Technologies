@@ -7,13 +7,11 @@ function Navbar() {
       <nav className="navbar__main">
         {/* <!-- ***** Logo Start ***** --> */}
         <div className="navbar__main__logo">
-          <a href="#" className="logo">
-            <img
-              src="../public/images/Logo(compressed png).png"
-              alt="Chimps Technologies"
-              className="logo_img"
-            />
-          </a>
+          <img
+            src="./images/Logo(compressed png).png"
+            alt="Chimps Technologies"
+            className="logo_img"
+          />
         </div>
         {/* <!-- ***** Logo End ***** -->
         <!-- ***** Menu Start ***** --> */}

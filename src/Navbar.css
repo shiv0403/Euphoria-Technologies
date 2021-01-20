@@ -1,9 +1,13 @@
 .navbar__main {
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   width: 70%;
   margin: auto;
-  margin-top: 20px;
   padding: 30px;
   border-radius: 40px;
   background-color: #fff;
@@ -16,6 +20,11 @@
 
 .navbar__main__menu > ul > li {
   margin-right: 20px;
+}
+
+.logo_img {
+  height: auto;
+  width: 80px;
 }
 
 /* .header-area {
