@@ -64,5 +64,22 @@
   font-size: 1.3rem;
   resize: none;
   border: none;
+  outline: none;
   background-color: #f3f2f8;
+}
+
+.contact__form > form > button {
+  border: 1px solid #8261ee;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #8261ee;
+  color: #fff;
+  outline: none;
+  margin-top: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.contact__form > form > button:hover {
+  border: 1px solid #ff589e;
+  background-color: #ff589e;
 }

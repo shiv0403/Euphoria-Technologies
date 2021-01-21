@@ -34,6 +34,8 @@ function Contact() {
               rows="10"
               placeholder="Your Message"
             />
+            <br />
+            <button type="submit">SEND MESSAGE</button>
           </form>
         </div>
       </div>
