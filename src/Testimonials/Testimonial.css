@@ -107,3 +107,25 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 450px) {
+  .testimonial > h2 {
+    font-size: 2rem;
+  }
+
+  .testimonial > p {
+    width: 100%;
+  }
+
+  .testimonial__boxes {
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .testimonial__boxes__item {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}

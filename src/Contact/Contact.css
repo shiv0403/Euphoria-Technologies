@@ -115,3 +115,22 @@
     width: 100%;
   }
 }
+
+@media (max-width: 450px) {
+  .contact > p {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .contact__main {
+    display: block;
+    width: 90%;
+  }
+
+  .contact__form > form > input[type="text"],
+  .contact__form > form > input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

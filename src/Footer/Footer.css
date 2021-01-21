@@ -42,3 +42,9 @@
     width: 80%;
   }
 }
+
+@media (max-width: 450px) {
+  .footer__main {
+    width: 90%;
+  }
+}
