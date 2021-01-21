@@ -113,3 +113,34 @@
     width: 80%;
   }
 }
+
+@media (max-width: 728px) {
+  .about {
+    margin-top: -50px;
+  }
+
+  .about__boxes {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .about__boxes__box {
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .about__boxes__box:not(:last-child) {
+    margin-right: auto;
+  }
+
+  .about__main > p {
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+  }
+}

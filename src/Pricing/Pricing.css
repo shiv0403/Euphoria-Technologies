@@ -98,3 +98,20 @@
     width: 30%;
   }
 }
+
+@media (max-width: 728px) {
+  .pricing > p {
+    width: 80%;
+  }
+
+  .pricing__plans {
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .pricing__plans__box {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}

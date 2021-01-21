@@ -85,3 +85,25 @@
     margin-right: 30px;
   }
 }
+
+@media (max-width: 728px) {
+  .testimonial > p {
+    width: 80%;
+  }
+
+  .testimonial__boxes {
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .testimonial__boxes__item {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .testimonial__boxes__item:not(:last-child) {
+    margin-right: auto;
+  }
+}
