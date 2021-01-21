@@ -83,3 +83,9 @@
   border: 1px solid #ff589e;
   background-color: #ff589e;
 }
+
+@media (max-width: 1284px) {
+  .contact__form > form > textarea {
+    width: 30em;
+  }
+}

@@ -30,3 +30,9 @@
   margin-top: 20px;
   color: #ffffff;
 }
+
+@media (max-width: 1284px) {
+  .footer__main {
+    width: 50%;
+  }
+}

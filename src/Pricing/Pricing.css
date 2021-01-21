@@ -88,3 +88,13 @@
 .purchase-button:hover {
   background-color: #ff589e;
 }
+
+@media (max-width: 1284px) {
+  .pricing > p {
+    width: 60%;
+  }
+
+  .pricing__plans__box {
+    width: 30%;
+  }
+}

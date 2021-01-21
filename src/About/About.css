@@ -80,3 +80,36 @@
   font-size: 1.2rem;
   color: #333333;
 }
+
+@media (max-width: 1284px) {
+  /* boxes */
+
+  .about__boxes__box {
+    width: 300px;
+    min-height: 300px;
+  }
+
+  .about__boxes__box:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .box__icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about__boxes__box > h5 {
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+
+  .about__boxes__box > p {
+    width: 90%;
+  }
+
+  /* about main */
+
+  .about__main > p {
+    width: 80%;
+  }
+}
