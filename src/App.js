@@ -7,6 +7,7 @@ import About from "./About/About";
 import Testimonial from "./Testimonials/Testimonial";
 import Pricing from "./Pricing/Pricing";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Testimonial />
       <Pricing />
       <Contact />
-      {/* Footer */}
+      <Footer />
     </div>
   );
 }

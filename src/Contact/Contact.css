@@ -11,18 +11,58 @@
 
 .contact > p {
   color: gray;
+  margin-bottom: 50px;
+}
+
+.contact__main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .contact__address {
   text-align: left;
+  flex: 0.8;
 }
 
-.contact__main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.contact__address > h2 {
+  margin-bottom: 10px;
+}
+
+.contact__address > p {
+  color: gray;
 }
 
 .contact__form {
   text-align: left;
+}
+
+.contact__form > form > input[type="text"] {
+  margin-right: 10px;
+}
+
+.contact__form > form > input[type="text"],
+.contact__form > form > input[type="email"] {
+  width: 49%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  background-color: #f3f2f8;
+}
+
+.contact__form > form > textarea {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  resize: none;
+  border: none;
+  background-color: #f3f2f8;
 }

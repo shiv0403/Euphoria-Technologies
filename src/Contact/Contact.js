@@ -17,6 +17,7 @@ function Contact() {
             voluptate? Ut corrupti ipsum nulla inventore qui! Molestiae, ratione
             repellendus.
           </p>
+          <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
             ratione.
@@ -26,9 +27,10 @@ function Contact() {
           <form>
             <input type="text" placeholder="Full Name" />
             <input type="email" placeholder="Email Address" />
+            <br />
             <textarea
               name="message"
-              cols="30"
+              cols="70"
               rows="10"
               placeholder="Your Message"
             />
