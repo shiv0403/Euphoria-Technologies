@@ -5,9 +5,9 @@ import Navbar from "./Navbar/Navbar";
 import Showcase from "./Showcase/Showcase";
 import About from "./About/About";
 import Testimonial from "./Testimonials/Testimonial";
-import Pricing from "./Pricing/Pricing";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
+import Team from "./Team/Team";
 
 function App() {
   const [isopened, setOpened] = useState(false);
@@ -21,9 +21,8 @@ function App() {
       <Navbar handleNavbar={handleNavbar} navbarState={isopened} />
       <Showcase />
       <About />
-      {/* work process */}
       <Testimonial />
-      <Pricing />
+      <Team />
       <Contact />
       <Footer />
     </div>

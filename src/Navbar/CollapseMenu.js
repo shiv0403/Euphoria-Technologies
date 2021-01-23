@@ -20,7 +20,7 @@ function CollapseMenu(props) {
             .interpolate((openValue) => `translate3d(0,${openValue}px)`),
         }}
       >
-        <ul>
+        <ul onClick={props.handleNavbar}>
           <li>
             <a href="#welcome" className="active">
               Home
@@ -36,7 +36,7 @@ function CollapseMenu(props) {
           </li>
           <hr />
           <li>
-            <a href="#pricing-plans">Pricing Tables</a>
+            <a href="#team">Team</a>
           </li>
           <hr />
           <li>

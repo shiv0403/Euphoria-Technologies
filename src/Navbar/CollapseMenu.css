@@ -65,3 +65,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: 415px) {
+  .collapseMenu {
+    width: 95%;
+  }
+}

@@ -76,3 +76,12 @@
     padding: 20px;
   }
 }
+
+@media (max-width: 415px) {
+  .navbar__main {
+    width: 95%;
+  }
+  .navbar__main__open {
+    width: 95%;
+  }
+}
