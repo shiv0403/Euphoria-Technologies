@@ -35,7 +35,7 @@ function Navbar(props) {
             {/* <!-- ***** Logo Start ***** --> */}
             <div className="navbar__main__logo">
               <img
-                src="../images/Logo(compressed png).png"
+                src={process.env.PUBLIC_URL + "images/Logo(compressed png).png"}
                 alt="Chimps Technologies"
                 className="logo_img"
               />

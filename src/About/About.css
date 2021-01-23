@@ -43,6 +43,10 @@
   border-radius: 50%;
 }
 
+.box__icon > i > img {
+  margin-top: 15px;
+}
+
 .box__icon:hover {
   background-color: #ff589e;
 }
