@@ -1,51 +1,92 @@
 import React from "react";
 import "./Navbar.css";
+import BurgerMenu from "./BurgerMenu";
+import CollapseMenu from "./CollapseMenu";
+import styled from "styled-components";
+import { useSpring, animated, config } from "react-spring";
 
-function Navbar() {
+function Navbar(props) {
+  const barAnimation = useSpring({
+    from: { transform: "translate3d(0, -10rem, 0)" },
+    transform: "translate3d(0, 0, 0)",
+  });
+
+  const linkAnimation = useSpring({
+    from: { transform: "translate3d(0, 30px, 0)", opacity: 0 },
+    to: { transform: "translate3d(0, 0, 0)", opacity: 1 },
+    delay: 800,
+    config: config.wobbly,
+  });
+
   return (
-    <div className="navbar">
-      <nav className="navbar__main">
-        {/* <!-- ***** Logo Start ***** --> */}
-        <div className="navbar__main__logo">
-          <img
-            src="../images/Logo(compressed png).png"
-            alt="Chimps Technologies"
-            className="logo_img"
-          />
+    <>
+      <animated.div style={barAnimation}>
+        <div className="navbar">
+          <nav
+            className={
+              !props.navbarState ? "navbar__main" : "navbar__main__open"
+            }
+          >
+            {/* <!-- ***** Logo Start ***** --> */}
+            <div className="navbar__main__logo">
+              <img
+                src="../images/Logo(compressed png).png"
+                alt="Chimps Technologies"
+                className="logo_img"
+              />
+            </div>
+            {/* <!-- ***** Logo End ***** -->
+          <!-- ***** Menu Start ***** --> */}
+            <div className="navbar__main__menu">
+              <animated.ul className="nav" style={linkAnimation}>
+                <li>
+                  <a href="#welcome" className="active">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#features">About</a>
+                </li>
+                <li>
+                  <a href="#work-process">Work Process</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonials</a>
+                </li>
+                <li>
+                  <a href="#pricing-plans">Pricing Tables</a>
+                </li>
+                <li>
+                  <a href="#blog">Blog Entries</a>
+                </li>
+                <li>
+                  <a href="#contact-us">Contact Us</a>
+                </li>
+              </animated.ul>
+              <BurgerWrapper>
+                <BurgerMenu
+                  navbarState={props.navbarState}
+                  handleNavbar={props.handleNavbar}
+                />
+              </BurgerWrapper>
+              <CollapseMenu
+                navbarState={props.navbarState}
+                handleNavbar={props.handleNavbar}
+              />
+            </div>
+          </nav>
         </div>
-        {/* <!-- ***** Logo End ***** -->
-        <!-- ***** Menu Start ***** --> */}
-        <div className="navbar__main__menu">
-          <ul className="nav">
-            <li>
-              <a href="#welcome" className="active">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#features">About</a>
-            </li>
-            <li>
-              <a href="#work-process">Work Process</a>
-            </li>
-            <li>
-              <a href="#testimonials">Testimonials</a>
-            </li>
-            <li>
-              <a href="#pricing-plans">Pricing Tables</a>
-            </li>
-            <li>
-              <a href="#blog">Blog Entries</a>
-            </li>
-            <li>
-              <a href="#contact-us">Contact Us</a>
-            </li>
-          </ul>
-          {/* <!-- ***** Menu End ***** --> */}
-        </div>
-      </nav>
-    </div>
+      </animated.div>
+    </>
   );
 }
 
 export default Navbar;
+
+const BurgerWrapper = styled.div`
+  margin: auto 0;
+
+  @media (min-width: 1400px) {
+    display: none;
+  }
+`;

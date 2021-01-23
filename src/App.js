@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
@@ -10,9 +10,15 @@ import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 
 function App() {
+  const [isopened, setOpened] = useState(false);
+
+  const handleNavbar = () => {
+    setOpened(!isopened);
+  };
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar handleNavbar={handleNavbar} navbarState={isopened} />
       <Showcase />
       <About />
       {/* work process */}
