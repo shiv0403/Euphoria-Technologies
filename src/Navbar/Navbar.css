@@ -1,6 +1,6 @@
 .navbar__main {
   position: fixed;
-  top: 30px;
+  top: 10px;
   left: 0px;
   right: 0px;
   z-index: 100;
@@ -18,7 +18,7 @@
 
 .navbar__main__open {
   position: fixed;
-  top: 30px;
+  top: 10px;
   left: 0px;
   right: 0px;
   z-index: 100;

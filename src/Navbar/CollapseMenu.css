@@ -1,7 +1,7 @@
 .collapseMenu {
   background: white;
   position: fixed;
-  top: 6rem;
+  top: 5.5rem;
   left: 0;
   right: 0;
   z-index: 100;
@@ -9,6 +9,19 @@
   margin: auto;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.collapseMenu:before {
+  content: "";
+  height: 7px;
+  width: 100%;
+  position: absolute;
+  top: -5px;
+  background: inherit;
+  z-index: 2;
 }
 
 .collapseMenu > ul {

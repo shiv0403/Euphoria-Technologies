@@ -3,7 +3,7 @@ import "./Showcase.css";
 
 function Showcase() {
   return (
-    <div className="showcase">
+    <div className="showcase" id="welcome">
       <div className="showcase__main">
         <h1>
           We develop <strong>innovative</strong>, <strong>creative</strong>{" "}

@@ -9,6 +9,11 @@ function Navbar(props) {
   const barAnimation = useSpring({
     from: { transform: "translate3d(0, -10rem, 0)" },
     transform: "translate3d(0, 0, 0)",
+    position: "fixed",
+    top: "30px",
+    left: "0px",
+    right: "0px",
+    zIndex: "100",
   });
 
   const linkAnimation = useSpring({

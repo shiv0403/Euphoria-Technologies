@@ -3,7 +3,7 @@ import "./Testimonial.css";
 
 function Testimonial() {
   return (
-    <div className="testimonial">
+    <div className="testimonial" id="testimonial">
       <h2>What do they say?</h2>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae

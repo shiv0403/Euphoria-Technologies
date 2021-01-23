@@ -32,19 +32,11 @@ function CollapseMenu(props) {
           </li>
           <hr />
           <li>
-            <a href="#work-process">Work Process</a>
-          </li>
-          <hr />
-          <li>
-            <a href="#testimonials">Testimonials</a>
+            <a href="#testimonial">Testimonials</a>
           </li>
           <hr />
           <li>
             <a href="#pricing-plans">Pricing Tables</a>
-          </li>
-          <hr />
-          <li>
-            <a href="#blog">Blog Entries</a>
           </li>
           <hr />
           <li>
