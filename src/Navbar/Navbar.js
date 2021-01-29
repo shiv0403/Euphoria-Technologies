@@ -40,8 +40,6 @@ function Navbar(props) {
                 className="logo_img"
               />
             </div>
-            {/* <!-- ***** Logo End ***** -->
-          <!-- ***** Menu Start ***** --> */}
             <div className="navbar__main__menu">
               <animated.ul className="nav" style={linkAnimation}>
                 <li>

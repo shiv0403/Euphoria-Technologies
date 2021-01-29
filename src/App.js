@@ -8,6 +8,7 @@ import Testimonial from "./Testimonials/Testimonial";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 import Team from "./Team/Team";
+import WhyChimps from "./WhyChimps/WhyChimps";
 
 function App() {
   const [isopened, setOpened] = useState(false);
@@ -21,6 +22,7 @@ function App() {
       <Navbar handleNavbar={handleNavbar} navbarState={isopened} />
       <Showcase />
       <About />
+      <WhyChimps />
       <Testimonial />
       <Team />
       <Contact />

@@ -6,14 +6,11 @@ function Showcase() {
     <div className="showcase" id="welcome">
       <div className="showcase__main">
         <h1>
-          We develop <strong>innovative</strong>, <strong>creative</strong>{" "}
-          products and <strong>services</strong>
-          <br />
-          that provides all advanced technical solutions.
+          WE ARE DELIVERING <strong>BEAUTIFUL DIGITAL PRODUCTS</strong>
         </h1>
         <p>
-          The general purpose of Chimps is to develop and promote advanced
-          information technologies for multi-user operations.
+          We provide high quality and cost effective offshore web and software
+          development services
         </p>
         <a href="#features" class="main-button-slider">
           Discover More
