@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 450px) {
+  .showcase {
+    height: 80vh;
+  }
+
   .showcase__main {
     top: 10%;
   }
