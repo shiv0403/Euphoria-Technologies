@@ -29,6 +29,7 @@ function Footer() {
         </ul>
         <hr />
         <p class="copyright">Copyright &copy; 2021 Chimps Technologies</p>
+        <p>Hello this is sample footer text</p>
       </div>
     </div>
   );
